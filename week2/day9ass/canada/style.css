@@ -1,0 +1,44 @@
+#blahblah {
+  margin-top: 10px;
+}
+
+#nav {
+  display: inline;
+  float: right;
+  margin-right: 10px;
+}
+
+#maple {
+  width: 10%;
+  margin-left: 20px;
+}
+.table {
+}
+
+#hometext {
+  margin-left: 20px;
+}
+
+label[for="name"],
+label[for="email"],
+label[for="urgent"],
+label[for="category"],
+label[for="department"],
+label[for="message"]
+{
+  display: inline-block;
+ float: left;
+ clear: left;
+ width: 200px;
+ text-align: left;
+ font-weight: bold;
+ margin-left: 50px;
+}
+
+#title{
+  margin-left: 40px;
+}
+
+#buttonthingy {
+  margin-left: 200px;
+}

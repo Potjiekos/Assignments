@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+  </head>
+  <link rel="stylesheet" href="style.css" charset="utf-8">
+  <link rel="stylesheet" href="normalize.css" charset="utf-8">
+  <body>
+  <div id = "blahblah">
+    <div id="nav">
+      <a href="https://www.canada.ca/en.html"> Government of Canada </a>
+      |
+      <a href="https://en.wikipedia.org/wiki/Canada"> Canada on Wikipedia </a>
+      |
+      <a href="index.html"> Home </a>
+    </div>
+
+    <div>
+    <img id= "maple" src="maple.png"/>
+    </div>
+    <hr>
+  </div>
+    <h1 id= "title">Contact Us</h1>
+
+    <form class="contactform" action="index.html" method="post">
+
+      <div>
+        <label for="name"> Name: </label>
+        <input type="text" name="name" placeholder="ie Jane Doe">
+      </div>
+      <br>
+      <div>
+        <label for="email"> Email: </label>
+        <input type="email" name="email" placeholder="ie janedoe@example.com">
+      </div>
+      <br>
+      <div>
+        <label for="urgent"> Urgent?</label>
+        <input type="checkbox" name="urgent">
+      </div>
+      <br>
+      <div>
+        <label for="category"> Category: </label>
+        <select id= "category">
+          <option>Art</option>
+          <option>Environment</option>
+          <option>Transportation</option>
+          <option>Education</option>
+          <option>Hockey</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="department"> Department: </label>
+        <input id="support"type="radio"> <label for="support"> Support </label>
+        <input id="press"type="radio"> <label for="press"> Press </label>
+        <input id="HR"type="radio"> <label for="HR"> HR </label>
+      </div>
+      <br>
+      <div>
+        <label for="message"> Message: </label>
+        <textarea id="message" rows="10" cols="40"></textarea>
+      </div>
+      <br>
+      <div id= "buttonthingy">
+        <input type="submit" value="Contact Us">
+      </div>
+    </form>
+
+  </body>
+</html>
